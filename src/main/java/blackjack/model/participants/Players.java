@@ -1,7 +1,9 @@
-package blackjack.model;
+package blackjack.model.participants;
+
+import blackjack.model.card.Cards;
+import blackjack.model.participants.Player;
 
 import java.util.List;
-import java.util.Map;
 
 public class Players {
     private final List<Player> players;

@@ -1,8 +1,8 @@
 package blackjack.model.state;
 
-import blackjack.model.CardScore;
-import blackjack.model.Cards;
-import blackjack.model.OwnedCards;
+import blackjack.model.card.CardScore;
+import blackjack.model.card.Cards;
+import blackjack.model.card.OwnedCards;
 
 public class BlackjackState extends State{
     public BlackjackState(OwnedCards ownedCards) {
